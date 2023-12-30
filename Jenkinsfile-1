@@ -5,7 +5,7 @@ pipeline {
   stages {
     stage('gitcheckout') {
       steps {
-        git https://github.com/nehasirsat/jenkins-example-docker
+        git 'https://github.com/nehasirsat/jenkins-example-docker'
       }
     }
   }
